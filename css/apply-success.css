@@ -1,0 +1,59 @@
+.apply-container {
+  height: 400px;
+}
+.apply-main {
+  width: 1200px;
+  margin: 90 auto;
+  position: relative;
+}
+.apply-main .img {
+  position: absolute;
+  left: 200px;
+}
+.apply-main .apply-body {
+  margin-left: 620px;
+}
+.apply-main .title {
+  font-size: 40px;
+  vertical-align: middle;
+}
+.apply-main .btn-learn {
+  display: inline-block;
+  color: #fff;
+  background: #23b8ff;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 36px;
+}
+.apply-main .txt-item {
+  color: #a9a9a9;
+  margin-top: 10px;
+}
+.apply-main .txt-list {
+  margin-top: 50px;
+}
+.apply-main .txt-item a {
+  color: #23b8ff;
+}
+.apply-main .icon {
+  margin-left: 5px;
+  position: relative;
+}
+.apply-main .qrcode {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background: url(../assets/images/basic.png) no-repeat 0 -180px;
+}
+.apply-main .qrcode-wrap {
+  display: none;
+  position: absolute;
+  right: -145px;
+  bottom: -191px;
+  padding: 10px;
+  border: 1px solid #a9a9a9;
+}

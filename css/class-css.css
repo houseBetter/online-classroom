@@ -1,0 +1,441 @@
+body {
+  font-size: 14px;
+  color: #333;
+}
+.main-container .main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-left {
+  width: 928px;
+}
+.main-left .breadcrumbs {
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+.main-left .breadcrumb {
+  float: left;
+  
+}
+.main-left .breadcrumbs .i-v-right {
+  font-size: 30px;
+  color: #999;
+}
+.category-container {
+  margin-bottom: 21px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.category-container .category-title {
+  float: left;
+  width: 93px;
+  height: 52px;
+  line-height: 52px;
+  color:#949494;
+}
+.category-container .category-item {
+  float: left;
+  padding-left: 10px;
+  padding-right: 19px;
+  margin-left: 9px;
+  height: 52px;
+  line-height: 52px;
+}
+.category-container .category-item--active a{
+  color: #23b8ff;
+}
+.sort-nav {
+  border: 1px solid #efefef;
+  height: 91px;
+  /* line-height: 38px; */
+}
+.sort-nav-order {
+  padding: 10px 15px;
+  background: #f7f7f7;
+}
+.white-bg-top-border {
+  background: #fff;
+  border-top: 1px solid #efefef;
+}
+.sort-nav .sort-one-item {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+.sort-nav .sort-one-item.item {
+  padding: 0 15px;
+}
+.sort-nav .item--active {
+  background-color: #23b8ff;
+}
+.sort-nav .item--active a {
+  color: #fff;
+}
+.sort-nav .sort-one-item.nav-gap {
+  color: #ddd;
+}
+.sort-one-item .sort-checkbox-list {
+  width: 324px;
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  z-index: 10;
+
+}
+.item--long__list {
+  border: 1px solid transparent;
+}
+.sort-checkbox-list:hover {
+  overflow: visible;
+}
+.sort-checkbox-list:hover .item--long__list {
+  border: 1px solid rgb(216, 211, 211);
+  background: #f7f7f7;
+}
+.sort-one-item .sort-checkbox-list i {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #999;
+  font-size: 30px;
+}
+.sort-checkbox {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.item--long__item {
+  float:left;
+}
+.sort-checkbox:before {
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background: url(../assets/images/checkbox.png) no-repeat 0 -101px;
+}
+.sort-checkbox--checked .sort-checkbox:before {
+  background-position: 0 -141px;
+}
+.sort-nav .sort-one-item.checkbox-item {
+  margin-right: 15px;
+}
+.sort-two-item {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+.sort-two-item:hover > a {
+  color: #23b8ff;
+}
+.sort-link {
+  margin: 0 15px;
+}
+.sort-link__rank {
+  margin-right: 15px;
+}
+.sort-link__price {
+  margin-right: 12px;
+  position: relative;
+}
+.sort-two-item--active a {
+  color: #23b8ff;
+}
+.i--active {
+  color: #23b8ff!important;
+}
+.dropdown-container {
+  position: relative;
+  top: -11px;
+}
+.dropdown-toggle {
+  /* position: relative;
+  top: -11px; */
+  height: 40px;
+  line-height: 40px;
+  border-color: transparent;
+  border-width: 1px 1px 0;
+  border-style: solid;
+}
+.dropdown-wrap:hover .dropdown-toggle {
+  border-color: #ddd;
+}
+.dropdown-wrap:hover .dropdown-toggle .icon-rotate {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.dropdown-wrap:hover .price-rank {
+  display: block;
+}
+.price-rank {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  top: 100%;
+  width: 208px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #ddd;
+}
+.price-rank .price-list a {
+  height: 38px;
+  line-height: 38px;
+  margin-left: 20px;
+}
+.sort-two-item .praise-rate i,
+.sort-two-item .popularity i {
+  color: #999;
+  font-size: 10px;
+}
+.sort-two-item .sort-link__price i {
+  font-size: 10px;
+  color: #ccc;
+}
+.sort-two-item .gap {
+  margin: 0 12px 0 22px;
+  color: #ddd;
+}
+.sort-two-item .rank i {
+  color: #999;
+}
+.sort-two-item .sort-link__price .icon-up-solid {
+  position: absolute;
+  right: -18px;
+  top: -6px;
+}
+.sort-two-item .sort-link__price .icon-down-solid {
+  position: absolute;
+  right: -18px;
+  top: 2px;
+}
+.price-select {
+  text-align: center;
+  line-height: 1;
+  padding: 10px 0;
+  color: #999;
+  border-top: 1px solid #ddd;
+}
+.price-select input {
+  width: 38px;
+  padding: 5px;
+  height: 18px;
+  vertical-align: middle;
+  border: 1px solid #e5e5e5;
+  line-height: 20px;
+  font-size: 14px;
+  box-sizing: content-box;
+  color: #999;
+  outline: 0;
+}
+.price-select input:hover {
+  border-color: #999;
+}
+.price-select .btn-confirm {
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 12px;
+  background-color: #23b8ff;
+  display: inline-block;
+  padding: 0 18px;
+  border-radius: 1px;
+}
+.price-select .btn-confirm:hover {
+  background: #12a7ff;
+}
+.margin8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+/* .course-card-list.margin8 .course-card-item {
+  margin-left: 0;
+  margin-bottom: 20px;
+} */
+/* .course-card-item .item-line .item-user {
+  color: #999;
+} */
+.course-card-item .item-line {
+  overflow: hidden;
+  margin-top: 0;
+  height: 18px;
+  font-size: 12px;
+}
+/* .course-card-item .item-line--middle {
+  padding-top: 3px;
+}
+*/
+/* .item-img-container {
+  position: relative;
+} */
+/* .item-img-info {
+  position: absolute;
+  width: 220px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #fff;
+  background-color: rgba(0,0,0,.6);
+  margin-top: -30px;
+  overflow: hidden;
+  bottom: 0;
+  text-indent: 2px;
+  z-index: 30;
+  left: 0;
+} */
+.course-wrap {
+  padding-top: 20px;
+}
+.course-card-item .item-line .icon-can-try {
+  display: inline-block;
+  width: 37px;
+  height: 15px;
+  background: url('../assets/images/basic.png') no-repeat;
+  background-position: -29px -142px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.course-classroom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 64px;
+  height: 24px;;
+  text-align: center;
+  overflow: hidden;
+}
+.course-classroom .slide-block {
+  transition: margin 1s;
+}
+.course-classroom .a-link.enter {
+  position: relative;
+  text-align: left;
+}
+.course-classroom .a-link.enter .enter-arrow {
+  position: absolute;
+  margin-left: 3px;
+  font-size: 12px;
+}
+.course-classroom .a-link {
+  display: block;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+}
+/* .course-classroom .a-link.enter {
+  margin-bottom: -24px;
+  transition: margin 1s;
+} */
+.course-classroom .a-link:hover {
+  color: #fff;
+}
+.main-container {
+  margin-bottom: 60px;
+}
+/* .course-card-item .item-line .item-user--right {
+  float: right;
+} */
+.main-left {
+  float: left;
+}
+.main-right {
+width: 240px;
+float: right;
+padding: 10px 0;
+background-color: #f7f8f9;
+margin-bottom: 60px;
+}
+.main-right .course-card-list {
+  margin-left: 0;
+  margin-right: 0;
+}
+.main-right .course-card-item {
+  margin-left: 0;
+  margin-top: 20px;
+}
+.main-right-top {
+  font-size: 16px;
+  height: 36px;
+  line-height: 32px;
+  border-bottom: 1px solid #dfdee0;
+  margin-left: 7px;
+  margin-right: 11px;
+}
+.main-below {
+  clear: left;
+  height: 297px;
+  background: #f7f8f9;
+}
+.main-below .course-card-list {
+  margin-left: 0;
+  margin-right: 0;
+}
+.main-below .course-card-item {
+  margin-left: 0;
+}
+.main-below-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.main-below-title {
+  font-size: 16px;
+  height: 36px;
+  line-height: 32px;
+  margin-left: 7px;
+}
+.course-card-item .course-prg {
+  font-size: 12px;
+  line-height: 24px;
+}
+.course-card-item .relative .course-prg {
+  bottom: 0;
+}
+.course-card-item .relative {
+  margin-bottom: 8px;
+}
+.course-card-item .h4 {
+  margin-bottom: 8px;
+}
+.item-line {
+  display: block;
+}
+.item-line .line-cell {
+  float: left;
+  color: #999;
+  height: 18px;
+  font-size: 12px;
+}
+.item-line .line-cell.item-user--right {
+  float: right;
+}
+.item-line .line-cell.right {
+  float: right;
+  width: 105px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+
+}
+.item-line .line-cell .icon-identification,
+.item-line .line-cell .cell-txt {
+  /* display: inline-block; */
+  vertical-align: middle;
+}
+.course-card-item .course-price {
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #e85308;
+  margin-bottom: 0;
+  margin-top: -2px;
+}
+.course-card-item .course-price.free {
+  color: #5fb41b;
+  font-size: 14px;
+} 

@@ -1,0 +1,335 @@
+body {
+  background: #F4F5F7;
+}
+.main {
+  width: auto;
+  height: auto;
+  background: #e5eef0;
+}
+.banner {
+  background: url('../assets/images/open-class__banner.jpg') no-repeat center top #6c6e70;
+  color: #fff;
+  height: 521px;
+  position: relative;
+}
+.banner .inner-center {
+  width: 990px;
+  height: 234px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.inner-center .title {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.inner-center .info {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.square-list {
+  margin-bottom: 20px;
+}
+.square-list .square {
+  float: left;
+  margin-right: 25px;
+}
+.square-list .square::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: rgba(35,165,249,.85);
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.banner .btn-apply-join {
+  display: inline-block;
+  color: #fff;
+  line-height: 60px;
+  font-size: 22px;
+  padding: 0 30px;
+  background-color: rgba(35,165,249,.85);
+  border-radius: 3px;
+}
+.banner .weixin-qr-code{
+  display: inline-block;
+  width: 94px;
+  height: 112px;
+  background: url('../assets/images/open-class__qrcode.png') no-repeat -6px -5px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+.main .qualification,
+.main .flow {
+  width: 990px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+.ql-list .ql {
+  float: left;
+  width: 232px;
+  background: #fff;
+}
+.ql-list .ql:not(:first-child) {
+  margin-left: 20px;
+}
+.title {
+  font-size: 36px;
+}
+.vice-title {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+.ql .inner-title {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.ql .inner-vice-title {
+  color: #999;
+  padding-bottom: 10px;
+}
+.flow .flow-bg-img {
+  background: url('../assets/images/open-class__flow.png') no-repeat center bottom;
+  padding-bottom: 510px;
+}
+.flow .vice-title {
+  margin-bottom: 0;
+}
+.main .flow {
+  margin-bottom: 120px;
+}
+.teacher-info {
+  background: url(../assets/images/open-class__teacher-info-bg.png) no-repeat center -4px #3e9ae5;
+  text-align: center;
+  color: #fff;
+  padding: 50px 0 100px;
+}
+.tea-info {
+  float: left;
+  width: 240px;
+  cursor: pointer;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+.tea-info.active {
+  opacity: 0.5;
+}
+.tea-info:not(:first-child) {
+  margin-left: 10px;
+}
+.teacher-info .title {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.teacher-info img {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #7ec5ff;
+  border-radius: 50%;
+}
+.teacher-info .tea-title {
+  font-size: 18px;
+  line-height: 2.5;
+}
+.teacher-info .tea-vice-title {
+  line-height: 1.6;
+  height: 66px;
+}
+.teacher-info .inner-center {
+  width: 990px;
+  margin: 0 auto;
+}
+/* 教育机构样式 */
+.font-30 {
+  font-size: 30px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.color-gray {
+  color: #999;
+}
+.open-class__company {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrap {
+  margin-bottom: 40px;
+}
+.wrap .content-left {
+  float: left;
+  width: 900px;
+  margin-top: 1px;
+  background: #fff;
+}
+.inner-header {
+  padding: 40px 30px;
+  position: relative;
+  border-bottom: 1px solid #F4F5F7;
+}
+.wrap .img-bg {
+  background: url(../assets/images/open-class__basic.png) no-repeat;
+}
+.inner-header .img {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.enter-title {
+  margin-top: 30px;
+}
+.enter-desc {
+  margin-bottom: 30px;
+}
+.inner-header .left-txt {
+  padding-left: 160px;
+}
+.wrap .content-right {
+  float: left;
+  padding: 0 20px;
+  width: 260px;
+}
+.inner-body .box-logo-cloud {
+  display: inline-block;
+  width: 98px;
+  height: 82px;
+  margin: 13px auto 19px;
+}
+.inner-body .box-logo-cloud {
+  background-position: 0 -160px;
+}
+.inner-body .box-logo-people {
+  display: inline-block;
+  width: 100px;
+  height: 82px;
+  margin: 13px auto 19px;
+  background-position: -140px -110px;
+}
+.inner-body .box-logo-rocket {
+  display: inline-block;
+  width: 64px;
+  height: 100px;
+  margin: 0 auto 14px;
+  background-position: -160px 0;
+}
+.list {
+  margin-top: 20px;
+  margin-right: -58px;
+}
+.list .item {
+  float: left;
+  text-align: center;
+  width: 241px;
+  height: 190px;
+  margin-right: 58px;
+}
+.inner-feature,.inner-support {
+  margin: 35px 30px;
+}
+.txt-group .c-desc {
+  text-align: left;
+  margin-top: 10px;
+}
+.inner-support .item {
+  height: auto;
+  padding-right: 28px;
+  margin-right: 29px;
+  border-right: 1px solid #e5e5e5;
+  position: relative;
+}
+.inner-support .item:last-child {
+  border-right-color: transparent;
+}
+.inner-support .item:not(:last-child):after {
+  position: absolute;
+  content: '';
+  border: 8px solid transparent;
+  border-left-color: #fff;
+  right: -14px;
+  top: 50%;
+  margin-top: -8px;
+}
+.inner-support .item:not(:last-child):before {
+  position: absolute;
+  content: '';
+  border: 8px solid transparent;
+  border-left-color: #e5e5e5;;
+  right: -16px;
+  top: 50%;
+  margin-top: -8px;
+}
+.block {
+  padding: 20px 0 20px 20px;
+}
+.block:not(:last-child) {
+  border-bottom: 1px solid #D5D5D5;
+}
+.block .block-tt {
+  margin-bottom: 10px;
+}
+.question-list .question {
+  margin-bottom: 10px;
+}
+.block .qq-link,.block .qr-code {
+  display: inline-block;
+  width: 106px;
+  height: 103px;
+  position: relative;
+}
+.qq-link .qq {
+  display: inline-block;
+  background: url('../assets/images/open-class__basic.png') no-repeat -160px -200px;
+  width: 51px;
+  height: 58px;
+  position: absolute;
+  top:16px;
+  left: 50%;
+  margin-left: -25px;
+}
+.qq-link .qq-txt {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.qr-code .code {
+  display: inline-block;
+  background: url('../assets/images/open-class__qrcode.png') no-repeat -12px -12px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  margin-left: -40px;
+}
+.qr-code .code-txt {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.block .com-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+}
+.block .img-list li {
+  float: left;
+  margin-right: 16px;
+}

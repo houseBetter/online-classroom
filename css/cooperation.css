@@ -1,0 +1,368 @@
+.cooperation-container {
+  height: 80px;
+}
+.cooperation-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: #000;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  z-index: 99;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.cooperation-header a {
+  color: #fff;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+.gap {
+  display: inline-block;
+  border-right: 1px solid;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 21px;
+  vertical-align: text-bottom;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.header-left .icon-tengxunketang {
+  font-size: 38px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-btn {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #fff;
+  margin-left: 10px;
+}
+.detail-main {
+  height: 875px;
+  background: url(../assets/images/cooperation-img01.jpg) no-repeat;
+}
+.detail-main h2 {
+  font-size: 80px;
+  color: #fff;
+  padding-top: 230px;
+  text-align: center;
+  line-height: 80px;
+}
+.detail-main .entrance-wrapper {
+  padding-top: 290px;
+  text-align: center;
+}
+.entrance-card {
+  display: inline-block;
+  color: #fff;
+  width: 440px;
+  height: 230px;
+  text-align: center;
+}
+.entrance-card:first-child {
+  background: #0057c2;
+}
+.entrance-card:last-child {
+  background: #0f2586;
+  margin-left: 24px;
+}
+.entrance-card-title {
+  padding-top: 38px;
+  font-size: 40px;
+  line-height: 40px;
+}
+.entrance-card-title:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 1px;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  margin: 15px 0 12px -12px;
+}
+.entrance-card p {
+  font-size: 16px;
+  line-height: 16px;
+}
+.link-to-content-cooperation,.link-to-course-purchase {
+  display: inline-block;
+  color: #fff;
+  width: 160px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.detail-content__course {
+  height: 800px;
+  background: url(../assets/images/cooperation-img02.jpg) no-repeat center/cover;
+}
+.detail-content > h3 {
+  padding-top: 100px;
+  padding-bottom: 25px;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.detail-content > p {
+  font-size: 18px;
+  line-height: 18px;
+  color: #555;
+  text-align: center;
+  position: relative;
+}
+.detail-content > p::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100px;
+  background: #0f2586;
+  margin:45px auto 0 auto;
+}
+.detail-content__course .course-title {
+  font-size: 35px;
+  line-height: 45px;
+  width: 260px;
+  margin-bottom: 40px;
+}
+.detail-content__course .course-block {
+  padding-top:100px;
+}
+.course-block p {
+  width: 425px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  margin-bottom: 50px;
+}
+.course-block {
+  width: 1200px;
+  margin: 0 auto;
+}
+.course-block a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: #188eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+.detail-content__category {
+  height: 860px;
+  background: url(../assets/images/cooperation-img03.jpg) no-repeat;
+  color: #fff;
+  text-align: center;
+}
+.detail-content__category > h3 {
+  display: inline-block;
+  padding-top: 135px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 50px;
+  width: 300px;
+}
+.detail-content__category > p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ccc;
+}
+.detail-content__category > a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: #188eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 380px;
+}
+.detail-content__teacher .teacher-card:first-child {
+  display: inline-block;
+  background: url(../assets/images/cooperation-img04.jpg) no-repeat;
+  height: 490px;
+  width: 590px;
+}
+.detail-content__teacher .teacher-card:last-child {
+  display: inline-block;
+  background: url(../assets/images/cooperation-img05.jpg) no-repeat;
+  height: 490px;
+  width: 590px;
+  margin-left: 10px;
+}
+.detail-content__teacher .teacher-card {
+  position: relative;
+}
+.detail-content__teacher .teacher-card:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.teacher-card-wrap {
+  text-align: center;
+}
+.detail-content__teacher {
+  margin-top: 135px;
+  text-align: center;
+}
+.teacher-wrap > h3 {
+  font-size: 40px;
+  line-height: 50px;
+  display: block;
+}
+.teacher-card-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 0;
+  color: #ccc;
+}
+.teacher-card-wrap .teacher-card-title {
+  position: relative;
+  margin-top: 170px;
+  font-size: 35px;
+  line-height: 40px;
+  z-index: 10;
+}
+.teacher-card-wrap .teacher-card-desc {
+  position: relative;
+  margin-top: 25px;
+  font-size: 18px;
+  z-index: 10;
+}
+.teacher-wrap a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: #188eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  margin: 100px 0;
+}
+.detail-apply {
+  height: 540px;
+  text-align: center;
+  background-color: #eaeaea;
+  color: #333;
+}
+.detail-apply h3 {
+  padding-top: 70px;
+  font-size: 50px;
+}
+.detail-apply p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.form {
+  width: 1200px;
+  margin: 0 auto;
+}
+.form .input-wrap {
+  display: inline-block;
+  background: #fff;
+  margin: 0 17px;
+  margin-top: 40px;
+}
+.form .input-wrap input {
+  width: 400px;
+  height: 25px;
+  padding: 9px 20px;
+  border: 1px solid #e5e5e5;
+  box-sizing: content-box;
+  font-size: 17px;
+}
+.form > a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #188eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 50px;
+}
+.detail-content__train .train-card:first-child {
+  background: url('../assets/images/cooperation-img06.jpg') no-repeat;
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.detail-content__train .train-card:last-child {
+  background: url('../assets/images/cooperation-img07.jpg') no-repeat;
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.train-card .train-title {
+  font-size: 35px;
+  line-height: 45px;
+  width: 260px;
+  margin-bottom: 40px;
+}
+.train-card .card-wrap {
+  padding-top: 330px;
+  padding-left: 100px;
+}
+.train-card:last-child .card-wrap {
+  padding-left: 770px;
+}
+.train-card .card-wrap > p {
+  width: 330px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  margin-bottom: 50px;
+  
+}
+.train-card .card-wrap > a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: #188eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+

@@ -1,0 +1,136 @@
+.banner-wrap {
+  background: url(../assets/images/macapp-img01.jpg) no-repeat center top;
+  height: 600px;
+  padding-top: 170px;
+  padding-left: 112px;
+}
+.banner-wrap .content-block .title {
+  margin-bottom: -16px;
+}
+.content-block {
+  color: #fff;
+  margin-left: 112px;
+}
+.content-block .title {
+  width: 400px;
+  font-size: 60px;
+  margin-bottom: 8px;
+}
+.content-block .vice-title {
+  width: 400px;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.content-block .desc {
+  width: 400px;
+  font-size: 16px;
+  margin-bottom: 22px;
+  margin-top: 19px;
+}
+.content-block .btn-link {
+  display: inline-block;
+  background: #fff;
+  color: #0f84fb;
+  width: 228px;
+  height: 65px;
+  font-size: 30px;
+  line-height: 65px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 63px;
+}
+.main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-course .main-wrap {
+  width: 900px;
+}
+.main-content {
+  float: right;
+}
+.main-wrap .img {
+  float: left;
+}
+.main-content .title {
+  font-size: 36px;
+  color: 0f84fb;
+  margin-bottom: 58px;
+  position: relative;
+}
+.main-content .title:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  border: 2px solid #0f84fb;
+  bottom: -29px;
+  left: 4px;
+  display: inline-block;
+}
+.main-content .desc {
+  font-size: 18px;
+  width: 300px;
+  margin-bottom: 48px;
+  color: #000;
+}
+.main-content .btn-down {
+  display: inline-block;
+  width: 176px;
+  height: 48px;
+  line-height: 44px;
+  font-size: 22px;
+  color: #0f84fb;
+  text-align: center;
+  border: 2px solid #0f84fb;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.main-communication {
+  height: 490px;
+  padding: 108px 0 96px;
+  background-color: #f5f6f8;
+  box-sizing: border-box;
+}
+.main-communication .main-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+.main-communication .main-wrap .img {
+  float: right;
+}
+.main-communication .main-wrap .main-content {
+  float: left;
+}
+.main-support {
+  height: 480px;
+  padding: 108px 0 112px;
+}
+.main-support .main-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+.main-experience {
+  height: 479px;
+  padding: 96px 0;
+  background-color: #f5f6f8;
+}
+.main-experience .main-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+.footer-wrap {
+  background: url('../assets/images/macapp-img06.jpg') no-repeat center top;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-wrap .content-block {
+  display: inline-block;
+}
+.footer-wrap .content-block .title {
+  margin-bottom: -14px;
+}
+.footer-wrap .content-block .desc {
+  font-size: 14px;
+  margin-top: 9px;
+}
