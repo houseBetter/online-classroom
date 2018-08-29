@@ -1,0 +1,60 @@
+/* 自定义分页样式， */
+.jh-pagination {
+  text-align: center;
+}
+
+.jh-pagination>li {
+  display: inline-block;
+  vertical-align: middle;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  margin: 0 3px;
+  color: #333;
+  font-size: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.jh-pagination>li>a {
+  text-decoration: none;
+  color: #333;
+}
+.jh-pagination>.page {
+  width: 64px;
+}
+/* "首页" */
+.jh-pagination>.first {
+  width: 78px;
+}
+/* "上一页" */
+.jh-pagination>.prev {
+  width: 78px;
+  margin-right: 3px;
+}
+/* 禁止状态的样式 */
+.jh-pagination>.disabled {
+  border-color: #ededed;
+  background-color: #e3e3e3 !important;
+  cursor: default !important;
+}
+.jh-pagination>.disabled>a {
+  color: #bcbcbc;
+}
+/* 活动状态的样式 */
+.jh-pagination>.active {
+  background: #23b8ff;
+  border-color: #23b8ff;
+}
+.jh-pagination>.active>a {
+  color: #fff;
+}
+/* ”下一页" */
+.jh-pagination>.next {
+  width: 78px;
+  margin-left: 3px;
+}
+/* “末页” */
+.jh-pagination>.last {
+  width: 78px;
+}

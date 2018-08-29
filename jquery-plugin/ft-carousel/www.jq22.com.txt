@@ -1,0 +1,10 @@
+
+   jQuery插件库   
+
+   http://www.jq22.com 
+
+   找的更少，做的更多！ jQuery插件库只为您提供最好的！
+
+
+插件配置参数说明：http://www.jq22.com/jquery-info17449
+		
